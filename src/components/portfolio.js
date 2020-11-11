@@ -6,9 +6,9 @@ function Project(props) {
       <div className="col d-flex justify-content-center">
         <img
           onClick={props.onClick}
-          id={props.imgID}
+          id={props.projects.id}
           className="border rounded portfolioImg"
-          src={props.portfolioImg}
+          src={props.}
         />
       </div>
     </>
