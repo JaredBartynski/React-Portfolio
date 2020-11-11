@@ -7,8 +7,8 @@ function Project(props) {
         <img
           onClick={props.onClick}
           id={props.projects.id}
-          className="border rounded portfolioImg"
-          src={props.}
+          className="images"
+          src={props.images}
         />
       </div>
     </>
