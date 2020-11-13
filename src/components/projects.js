@@ -1,39 +1,51 @@
-[
+import codequiz from "../images/codequiz.png";
+import walkitoff from "../images/walkitoff.png";
+import portfolio from "../images/portfolio.png";
+import teamprofile from "../images/teamprofile.png";
+import readme from "../images/readme.png";
+import restaurant from "../images/restaurant.png";
+
+export default [
   {
     id: 1,
     title: "Code Quiz",
-    "project link": "https://github.com/JaredBartynski/JavaScriptQuiz",
-    "deployed link": "https://jaredbartynski.github.io/JavaScriptQuiz/",
+    projectLink: "https://github.com/JaredBartynski/JavaScriptQuiz",
+    deployedLink: "https://jaredbartynski.github.io/JavaScriptQuiz/",
+    image: codequiz,
   },
   {
     id: 2,
     title: "Walk it Off",
-    "project link": "https://github.com/JaredBartynski/Walk-it-off",
-    "deployed link": "https://andbret.github.io/Walk-it-off/",
+    projectLink: "https://github.com/JaredBartynski/Walk-it-off",
+    deployedLink: "https://andbret.github.io/Walk-it-off/",
+    image: walkitoff,
   },
   {
     id: 3,
     title: "Responsive Portfolio",
-    "project link":
-      "https://github.com/JaredBartynski/JaredBartynski.github.io",
-    "deployed link": "https://jaredbartynski.github.io/",
+    projectLink: "https://github.com/JaredBartynski/JaredBartynski.github.io",
+    deployedLink: "https://jaredbartynski.github.io/",
+    image: portfolio,
   },
   {
     id: 4,
     title: "Team Profile Generator",
-    "project link": "https://github.com/JaredBartynski/TeamProfileGenerator",
-    "deployed link": "https://jaredbartynski.github.io/TeamProfileGenerator/",
+    projectLink: "https://github.com/JaredBartynski/TeamProfileGenerator",
+    deployedLink: "https://jaredbartynski.github.io/TeamProfileGenerator/",
+    image: teamprofile,
   },
   {
     id: 5,
     title: "My ReadME Generator",
-    "project link": "https://github.com/JaredBartynski/MyReadMeGenerator",
-    "deployed link": "https://jaredbartynski.github.io/MyReadMeGenerator/",
+    projectLink: "https://github.com/JaredBartynski/MyReadMeGenerator",
+    deployedLink: "https://jaredbartynski.github.io/MyReadMeGenerator/",
+    image: readme,
   },
   {
     id: 6,
     title: "Restaurant Finder 500",
-    "project link": "https://github.com/JaredBartynski/RestaurantFinder500",
-    "deployed link": "https://findtherestaurant500.herokuapp.com/",
+    projectLink: "https://github.com/JaredBartynski/RestaurantFinder500",
+    deployedLink: "https://findtherestaurant500.herokuapp.com/",
+    image: restaurant,
   },
 ];

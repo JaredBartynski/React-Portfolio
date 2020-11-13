@@ -1,17 +1,13 @@
 import React from "react";
-
-function info() {
+import myImage from "../images/58608497_10218716357490917_1622117445852463104_o.jpg";
+function About() {
   return (
     <>
       <section class="container">
-        <section class="card mb-3" style="max-width: 540px">
+        <section class="card mb-3" style={{ maxWidth: "540px" }}>
           <section class="row no-gutters">
             <section class="col-md-4">
-              <img
-                src="images/58608497_10218716357490917_1622117445852463104_o.jpg"
-                class="card-img"
-                alt="..."
-              />
+              <img src={myImage} class="card-img" alt="..." />
             </section>
             <section class="col-md-8">
               <section class="card-body">
@@ -49,4 +45,4 @@ function info() {
   );
 }
 
-export default info;
+export default About;

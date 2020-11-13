@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function navbar() {
+function Navbar() {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -19,19 +20,21 @@ function navbar() {
         <section class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">
-                About
-              </a>
+              <Link to="/about">About</Link>
+              {/* <a class="nav-link">
+              </a> */}
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="portfolio.html">
+              <Link to="/portfolio">
                 Portfolio <span class="sr-only">(current)</span>
-              </a>
+              </Link>
+              {/* <a class="nav-link">
+              </a> */}
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">
-                Contact
-              </a>
+              <Link to="/contact">Contact</Link>
+              {/* <a class="nav-link">
+              </a> */}
             </li>
           </ul>
         </section>
@@ -41,4 +44,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default Navbar;

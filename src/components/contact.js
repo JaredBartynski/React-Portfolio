@@ -1,14 +1,14 @@
 import React from "react";
 
-function contact() {
+function Contact() {
   return (
     <>
-      <Section class="container">
-        <Section class="card" style="width: 18rem">
-          <Section class="card-body">
+      <section class="container">
+        <section class="card" style={{ width: "18rem" }}>
+          <section class="card-body">
             <h5 class="card-title">Contact</h5>
             <form>
-              <Section class="form-group">
+              <section class="form-group">
                 <label for="formGroupExampleInput">Name</label>
                 <input
                   type="text"
@@ -16,8 +16,8 @@ function contact() {
                   id="formGroupExampleInput"
                   placeholder="Name"
                 />
-              </Section>
-              <Section class="form-group">
+              </section>
+              <section class="form-group">
                 <label for="formGroupExampleInput2">Email</label>
                 <input
                   type="text"
@@ -25,8 +25,8 @@ function contact() {
                   id="formGroupExampleInput2"
                   placeholder="Email"
                 />
-              </Section>
-              <Section class="form-group">
+              </section>
+              <section class="form-group">
                 <label for="formGroupExampleInput2">Message</label>
                 <input
                   type="text"
@@ -34,15 +34,15 @@ function contact() {
                   id="formGroupExampleInput2"
                   placeholder="Message"
                 />
-              </Section>
+              </section>
             </form>
             <input class="btn btn-primary" type="submit" value="Submit" />
-          </Section>
-        </Section>
-      </Section>
+          </section>
+        </section>
+      </section>
       ;
     </>
   );
 }
 
-export default contact;
+export default Contact;
