@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/React-Portfolio/static/js/main.4424bb58.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.4424bb58.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.1373300c.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.1373300c.js.map",
+    "static/js/2.430ddaf4.chunk.js": "/React-Portfolio/static/js/2.430ddaf4.chunk.js",
+    "static/js/2.430ddaf4.chunk.js.map": "/React-Portfolio/static/js/2.430ddaf4.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/js/2.430ddaf4.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.430ddaf4.chunk.js.LICENSE.txt",
+    "static/media/58608497_10218716357490917_1622117445852463104_o.09a5ac3a.jpg": "/React-Portfolio/static/media/58608497_10218716357490917_1622117445852463104_o.09a5ac3a.jpg",
+    "static/media/codequiz.b2123afd.png": "/React-Portfolio/static/media/codequiz.b2123afd.png",
+    "static/media/portfolio.c21a3260.png": "/React-Portfolio/static/media/portfolio.c21a3260.png",
+    "static/media/readme.09d7c118.png": "/React-Portfolio/static/media/readme.09d7c118.png",
+    "static/media/restaurant.8cd6b126.png": "/React-Portfolio/static/media/restaurant.8cd6b126.png",
+    "static/media/teamprofile.11a4505d.png": "/React-Portfolio/static/media/teamprofile.11a4505d.png",
+    "static/media/walkitoff.dce75034.png": "/React-Portfolio/static/media/walkitoff.dce75034.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1373300c.js",
+    "static/js/2.430ddaf4.chunk.js",
+    "static/js/main.4424bb58.chunk.js"
+  ]
+}
